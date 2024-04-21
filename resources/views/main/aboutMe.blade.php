@@ -1,6 +1,6 @@
 <div class="AboutMe">
     <div class="aboutMeContents">
-    <h1 style="width: 400px; border-bottom: 1px solid #000;">AboutMe</h1>
+    <h1 class="aboutMeTitl" style="width: 400px; border-bottom: 1px solid #000;">AboutMe</h1>
         <p>
           name: 新井勇大
         </p>

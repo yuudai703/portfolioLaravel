@@ -99,9 +99,11 @@
     }
 
   /* アバウトミー */
-  /* .aboutMe{
-    height: 650px!important;
-  } */
+  .aboutMeTitl{
+    width: 380px!important;
+    margin-left: -10px!important;
+    padding-left: 10px!important;
+  }
   .aboutMe{
       height: 650px!important;
     }
@@ -127,6 +129,7 @@
       margin-bottom: -20%!important;
       margin-left: 0%!important;
       padding-left: 10px!important;
+      width: 380px!important;
 
     }
 

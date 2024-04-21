@@ -18,7 +18,7 @@
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
-    <body class="background-container">
+    <body class="background-container" style="overflow-x: hidden !important;">
           <div id="postMesParent" style="position: fixed; top: 20%; left: 50%; transform: translate(-50%, -50%); z-index: 99; text-align: center;">
           </div>
           <!-- メイン画面表示 -->
@@ -36,7 +36,7 @@
     if(screen.width>499){
       peiSize=600;
     }else{
-      peiSize=400;
+      peiSize=390;
     }
 
       var pie = new d3pie("myChart", {
