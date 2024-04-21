@@ -141,6 +141,7 @@ html, body {
   /* スキル */
   .skillblock{
     margin-left: 0%;
+    overflow: hidden;
   }
   /* スキルラベル */
   .skill-l{
