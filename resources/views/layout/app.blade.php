@@ -2,7 +2,9 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>MessageBoard</title>
+        <title>arai.yuudai　ポートフォリオ</title>
+        <meta name="description" content="長野県在住エンジニア、新井勇大のポートフォリオサイトです。">
+        <meta name=”keywords” content="新井勇大,エンジニア,ポートフォリオ"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
