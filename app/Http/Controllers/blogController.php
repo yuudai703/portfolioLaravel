@@ -12,9 +12,23 @@ class blogController extends Controller
     }
 
     public function documentShow($id){
-
         return view('blogs.blog',[
             'blog'=>DB::table('blogs')->where('id',$id)->first()
         ]);
+    }
+
+    public function create(){
+        return view("blogs.create");
+    }
+
+    public function store(Request $request){
+
+        DB::table("blogs")->insert([
+            'title'=>$request->title,
+            'contents'=>$request->contents
+        ]);
+
+        return view("blogs.create");
+
     }
 }
