@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html, body {
+  overflow-x: hidden!important;
+}
+
+
+
 .Headline {
     opacity: 0; /* 初期状態では透明に */
     transform: translateX(64px); /* 右に移動 */
