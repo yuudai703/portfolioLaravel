@@ -279,7 +279,7 @@
   }
 
   h1{
-    font-size: 50px;
+    font-size: 50px!important;
     z-index: 4;
     }
 
@@ -430,4 +430,3 @@
   #overlay ul li a:hover {
     color: #000!important;
   }
-
