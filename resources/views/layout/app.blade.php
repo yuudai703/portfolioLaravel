@@ -13,9 +13,8 @@
         <script src="https://cdn.tailwindcss.com"></script>
 
     <meta name="google" content="notranslate">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/monokai.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+
     {{-- <meta name="csrf-token" content="{{ csrf_token() }}"> --}}
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -24,12 +23,24 @@
           <div id="postMesParent" style="position: fixed; top: 20%; left: 50%; transform: translate(-50%, -50%); z-index: 99; text-align: center;">
           </div>
           <!-- メイン画面表示 -->
+
+
+
         @yield('content')
-        <script type="module" src="/main.js"></script>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/devibeans.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.3.1/d3.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/d3pie@0.2.1/d3pie/d3pie.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // hljs.highlightAll();
+    hljs.initHighlightingOnLoad();
+});
 
     if(window.location.href.indexOf('blog/show')==-1 &&
     window.location.href.indexOf('blog/create')==-1){
