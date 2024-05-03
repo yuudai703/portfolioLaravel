@@ -11,7 +11,7 @@
         <p>hobby：筋トレ　サウナ</p>
         <br>
         <p class="aboutMeP" style="width: 80%; white-space:normal;" class="text-gray-600">
-        高校時代はソフトテニスでインターハイに出場。
+        高校時代はソフトテニスでインターハイに出場。<br>
         今は趣味でジムでトレーニングしています。
         </p>
         <br>
