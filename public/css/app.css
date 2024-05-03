@@ -9,23 +9,46 @@ html, body {
 
 
 
-.Headline {
-    opacity: 0; /* 初期状態では透明に */
-    transform: translateX(64px); /* 右に移動 */
-    transition: opacity 1.6s ease, transform 1.6s ease; /* アニメーションの設定 */
-  }
+/*  */
 
   /* 初期状態でのフェードインアニメーション */
   @keyframes FadeIn {
     from {
       opacity: 0; /* 初期状態では透明 */
-      transform: translateX(64px); /* 右に移動 */
+      transform: translateX(100%); /* 右に移動 */
     }
     to {
       opacity: 1; /* 最終状態では不透明 */
       transform: translateX(0); /* 元の位置 */
     }
   }
+
+  .Headline {
+    animation: FadeIn 1.6s ease forwards; /* フェードインアニメーションの設定 */
+  }
+
+  /* 上からのフェードイン */
+  /* --------------------------------------------------------- */
+  @keyframes fadeInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-from-top {
+    opacity: 0; /* 初期状態で透明にする */
+    animation: fadeInFromTop 1s ease forwards; /* アニメーションを適用 */
+  }
+  /* ------------------------------------------------------ */
+
+
+
+
 
   /*------- ブログ---------- */
   .custom-text {
@@ -37,9 +60,7 @@ html, body {
   }
   /* -------------------- */
 
-  .Headline {
-    animation: FadeIn 1.6s ease forwards; /* フェードインアニメーションの設定 */
-  }
+
 
 
   @keyframes draw {
@@ -196,24 +217,6 @@ html, body {
   }
 
 
-  /* 上からのフェードイン */
-  /* --------------------------------------------------------- */
-  @keyframes fadeInFromTop {
-    from {
-      opacity: 0;
-      transform: translateY(-100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .fade-in-from-top {
-    opacity: 0; /* 初期状態で透明にする */
-    animation: fadeInFromTop 1s ease forwards; /* アニメーションを適用 */
-  }
-  /* ------------------------------------------------------ */
 
 
 

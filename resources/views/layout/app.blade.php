@@ -42,48 +42,82 @@ document.addEventListener("DOMContentLoaded", function(event) {
     hljs.initHighlightingOnLoad();
 });
 
-    if(window.location.href.indexOf('blog/show')==-1 &&
-    window.location.href.indexOf('blog/create')==-1){
 
-    let peiSize;
-    if(screen.width>499){
-      peiSize=600;
-    }else{
-      peiSize=390;
-    }
 
-      var pie = new d3pie("myChart", {
-            "size": {
-                "canvasWidth": peiSize,
-                "canvasHeight": peiSize
-            },
-            "header": {
-              "title": {
-                "text": "Language",
-                "fontSize": 24, // タイトルのフォントサイズを24に設定
-                "font": "Meiryo UI"
-              },
-            },
-            "labels": {
-              "outer": {
-                "format": "label",
-                "fontSize": 30, // 外側のラベルのフォントサイズを18に設定
-              },
-              "inner": {
-                "format": "percentage",
-                "fontSize": 16, // 内側のラベル（パーセンテージ）のフォントサイズを16に設定
-              }
-            },
-            "data": {
-              "content": [
-                { label: "PHP", value: 50 },
-                { label: "JavaScript", value: 30 },
-                { label: "HTML", value: 10 },
-                { label: "CSS", value: 10 }
-              ],
-            },
-            });
+//peiチャート表示イベント
+  function peiShow(){
+      if(window.location.href.indexOf('blog/show')==-1 &&
+      window.location.href.indexOf('blog/create')==-1){
+
+      let peiSize;
+      if(screen.width>499){
+        peiSize=600;
+      }else{
+        peiSize=390;
       }
+
+        var pie = new d3pie("myChart", {
+              "size": {
+                  "canvasWidth": peiSize,
+                  "canvasHeight": peiSize
+              },
+              "header": {
+                "title": {
+                  "text": "Language",
+                  "fontSize": 24, // タイトルのフォントサイズを24に設定
+                  "font": "Meiryo UI"
+                },
+              },
+              "labels": {
+                "outer": {
+                  "format": "label",
+                  "fontSize": 30, // 外側のラベルのフォントサイズを18に設定
+                },
+                "inner": {
+                  "format": "percentage",
+                  "fontSize": 16, // 内側のラベル（パーセンテージ）のフォントサイズを16に設定
+                }
+              },
+              "data": {
+                "content": [
+                  { label: "PHP", value: 50 },
+                  { label: "JavaScript", value: 30 },
+                  { label: "HTML", value: 10 },
+                  { label: "CSS", value: 10 }
+                ],
+              },
+            });
+          }
+        }
+        //イベント終了
+
+
+    let once = false;
+    let once1 = false;
+    let once2 = false;
+	  window.addEventListener('scroll', function () {
+
+      taeget_position1 = document.querySelector('#sinka').getBoundingClientRect().bottom;
+      taeget_position2 = document.querySelector('#sojo').getBoundingClientRect().bottom;
+      taeget_position = document.querySelector('#myChart').getBoundingClientRect().bottom;
+      // 画面トップからの距離から画面の高さより小さければ実行する
+
+        if (taeget_position1 <= window.innerHeight && once1 !== true) {
+            once1 = true;
+            document.querySelector('#sinka').classList.add('Headline');
+        }
+
+        if (taeget_position2 <= window.innerHeight && once2 !== true) {
+          once2 = true;
+          document.querySelector('#sojo').classList.add('Headline');
+        }
+
+
+        if (taeget_position <= window.innerHeight && once !== true) {
+          once = true;
+          peiShow();//グラフ表示イベント;
+        }
+    });
 
 
 
