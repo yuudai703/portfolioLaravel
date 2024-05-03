@@ -12,7 +12,7 @@
         <br>
         <p class="aboutMeP" style="width: 80%; white-space:normal;" class="text-gray-600">
         高校時代はソフトテニスでインターハイに出場。<br>
-        今は趣味でジムでトレーニングしています。
+        今は趣味でトレーニングしています。
         </p>
         <br>
         <p style="width: 300px; font-size:30px; border-bottom: 1px solid #000;">日々意識していること<br>目指したい人材</p>
