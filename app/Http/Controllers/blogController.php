@@ -31,4 +31,21 @@ class blogController extends Controller
         return view("blogs.create");
 
     }
+
+
+    public function edit($id){
+
+        return view("blogs.edit",[
+            "blog"=>DB::table("blogs")->where('id',$id)->first()
+        ]);
+    }
+
+    public function update(Request $request){
+        DB::table("blogs")->where('id',$request->id)->update([
+            'title'=>$request->title,
+            'contents'=>$request->contents
+        ]);
+
+        return redirect()->route('blogShow', ['id'=>$request->id]);
+    }
 }
