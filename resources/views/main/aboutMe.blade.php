@@ -42,7 +42,7 @@
 
     </div>
 
-      <img id="myPro" style='width: 250%; height: 100%; float: right; margin-right:5%;' src={{asset('pro.jpg')}} class="logo vanilla" alt="logo" />
+      <img id="myPro" style='width: 25%; height: 10%; float: right; margin-right:5%;' src={{asset('pro.jpg')}} class="logo vanilla" alt="logo" />
   </div>
 
   <script>
