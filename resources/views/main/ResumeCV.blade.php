@@ -9,7 +9,7 @@
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row" _msthidden="2">
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0" _msthidden="2">
             <h2 class="font-medium title-font text-black mb-1 text-xl" _msttexthash="232921" _msthidden="1" _msthash="2329">現金輸送-機械警備会社に就職</h2>
-            <p class="leading-relaxed" _msttexthash="6235814" _msthidden="1" _msthash="2330">
+            <p class="leading-relaxed fontphon" _msttexthash="6235814" _msthidden="1" _msthash="2330">
               社会人一年目はITとは無関係の仕事をしていました。
             </p>
           </div>
@@ -23,7 +23,7 @@
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row" _msthidden="2">
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0" _msthidden="2">
             <h2 class="font-medium title-font text-black mb-1 text-xl" _msttexthash="204971" _msthidden="1" _msthash="2332">未経験で都内ITベンチャー企業へ転職</h2>
-            <p class="leading-relaxed" _msttexthash="6235814" _msthidden="1" _msthash="2333">
+            <p class="leading-relaxed fontphon" _msttexthash="6235814" _msthidden="1" _msthash="2333">
             IT業界に興味を持ち始め22歳の時思い切って都内の社員数30名、平均年齢20代のベンチャー企業へ転職。同時に先輩エンジニアからプログラミングについて教わっていました。<br>
             インターホンと連動したセキュリティスマホアプリ
 ：テスター<br>
@@ -46,7 +46,7 @@
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row" _msthidden="2">
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0" _msthidden="2">
             <h2 class="font-medium title-font text-black mb-1 text-xl" _msttexthash="154011" _msthidden="1" _msthash="2335">地元長野県で受託開発会社へ転職</h2>
-            <p class="leading-relaxed" _msttexthash="6235814" _msthidden="1" _msthash="2336">
+            <p class="leading-relaxed fontphon" _msttexthash="6235814" _msthidden="1" _msthash="2336">
               23歳の時、地元長野県の企業にも興味を持ち転職しました。<br>
               物流会社-販売管理システム 受託開発 担当業務：詳細設計 開発　テスト　保守運用<br>
               自社用-勤怠管理システム　担当業務：要件定義　詳細設計 開発　テスト　保守運用<br>
