@@ -15,14 +15,16 @@
         今は趣味でトレーニングしています。
         </p>
         <br>
-        <p style="width: 300px; font-size:30px; border-bottom: 1px solid #000;">日々意識していること<br>目指したい人材</p>
+        <p style="width: 300px; font-size:30px; border-bottom: 1px solid #000;">Policy</p>
         <br>
         <p id="sinka" style="width: 80%; white-space:normal; opacity: 0;">
           <span style=" font-size:30px;">深化</span><br>
+          <span id="policy1">
           今は生成AIがあり理解しなくてもなんとなく動かすことはできますが、
           技術の領域において基礎から細部まで徹底的に理解し深めることが
           、問題解決能力や技術の応用力がつくのではないかと考えます。
           自分にとっての技術力の定義のハードルを下げないようにしたいです。
+          </span>
         </p>
         <br>
         <p id="sojo" style="width: 80%; white-space:normal; opacity: 0;">
@@ -54,3 +56,16 @@
 
 
   </script>
+
+
+{{-- <style>
+  #policy1{
+  font-size: 14px!important;
+ }
+
+ #policy2{
+  font-size: 14px!important;
+ }
+
+
+</style> --}}
