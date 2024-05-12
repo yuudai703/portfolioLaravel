@@ -185,12 +185,8 @@ html, body {
     margin-left: -30%;
   }
 
- #policy1{
-  font-size: 14px!important;
- }
-
- #policy2{
-  font-size: 14px!important;
+ .fontphon{
+  font-size: 16px!important;
  }
 
 
