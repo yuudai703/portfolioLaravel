@@ -17,3 +17,4 @@ Route::put('/blog/edit/update',[blogController::class,'update']);
 Route::post('/contacts/store',[ContactController::class,'store']);
 
 Route::get('/contacts/index',[ContactController::class,'index']);
+Route::get('/access',[WelcomeController::class,'access']);
