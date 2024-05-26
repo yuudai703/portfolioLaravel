@@ -229,7 +229,7 @@ html, body {
   @media screen and (min-width: 499px) {
 
     body {
-      min-height: 100vh !important;
+      /* max-height: 120vh !important; */
       /* height: 100vh!important; */
       font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
       background: linear-gradient(-45deg, #a535b1,#bd4ec9,#8cb2e2,#8d4dc9,#7535b1);
