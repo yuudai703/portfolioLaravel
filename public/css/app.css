@@ -71,9 +71,18 @@ html, body {
 
   /* スマホの時 */
   @media screen and (max-width: 499px) {
+    .pcTitle{
+      display: none;
+      }
 
-    .fontphon{
-      font-size: 10px!important;
+    .titlePhon{
+      font-size: 33px!important;
+      color: black;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      /* line-height: 70vh; */
+      height: 10vh; /* 必要に応じて調整 */
     }
 
 
@@ -127,6 +136,11 @@ html, body {
     }
 
   /* アバウトミー */
+
+  .aboutMeTitl{
+    font-size: 33px!important;
+  }
+
   .aboutMe{
       height: 650px!important;
     }
@@ -150,14 +164,22 @@ html, body {
     }
     .cv-title{
       margin-bottom: -20%!important;
-      margin-left: 0%!important;
-      text-align: center;
+      margin-left: 5%!important;
+      text-align: left;
+      font-size: 33px!important;
     }
 
 
   /* スキル */
   .skillblock{
     margin-left: 0%;
+  }
+
+  .skillTitle{
+    font-size: 33px!important;
+    text-align: left!important;
+    margin-left: 10px!important;
+    border-bottom: 1px solid black;
   }
   /* スキルラベル */
   .skill-l{
@@ -194,6 +216,9 @@ html, body {
 
   /* スマホじゃないとき */
   @media screen and (min-width: 499px) {
+    .divTitlePhon{
+      display:none!important;
+    }
     .AboutMe{
       display: flex;
       margin-bottom: 200px;
@@ -239,16 +264,28 @@ html, body {
   }
 
 
-  body{
-    min-height: 100vh!important;
-    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
-    /* background: -moz-linear-gradient(65deg, #550c86, #8378ff);
-    background: -webkit-linear-gradient(65deg, #550c86, #FFC778);
-    background: linear-gradient(25deg, #5d0101, #e60a0a); */
-    background: linear-gradient(25deg, #95a8c6, #7d338e);
-  }
+  body {
+    min-height: 100vh !important;
+    /* height: 100vh!important; */
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    background: linear-gradient(-45deg, #a535b1,#bd4ec9,#8cb2e2,#8d4dc9,#7535b1);
+    background-size: 300% 300%!important;
+    animation: bodyColor 12s ease infinite!important;
+}
 
 
+
+@keyframes bodyColor {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
   .contentsBlock{
     height:500px;
     width: 70%;
@@ -392,6 +429,7 @@ html, body {
   }
   #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
     background: #fff;
+    /* background: hsl(0, 59%, 20%); */
   }
 
   input[type=checkbox] {

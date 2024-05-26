@@ -11,6 +11,7 @@
 
 
         <script src="https://cdn.tailwindcss.com"></script>
+        <script src="{{ asset('js/anime.min.js')}}"></script>
 
     <meta name="google" content="notranslate">
 
@@ -37,6 +38,17 @@
         <script src="https://cdn.jsdelivr.net/npm/d3pie@0.2.1/d3pie/d3pie.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+
+anime({
+  targets: 'body',
+  left: '240px',
+  backgroundColor: 'linear-gradient(25deg, #95a8c6, #7d338e)',
+  //borderRadius: ['0%', '50%'],
+  easing: 'easeInOutQuad'
+});
+
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
     // hljs.highlightAll();
     hljs.initHighlightingOnLoad();
