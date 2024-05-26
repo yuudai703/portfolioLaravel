@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Skills</h1>
+<h1 style="text-align: center;" class='skillTitle'>Skills</h1>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
       <!-- グリッドアイテム2 -->
       <div class=" p-4">
