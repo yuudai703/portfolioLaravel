@@ -20,7 +20,8 @@
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
-    <body class="background-container" style="overflow-x: hidden !important;">
+    {{-- <body class="background-container" style="overflow-x: hidden !important;"> --}}
+    <body class="background-container">
           <div id="postMesParent" style="position: fixed; top: 20%; left: 50%; transform: translate(-50%, -50%); z-index: 99; text-align: center;">
           </div>
           <!-- メイン画面表示 -->
@@ -109,10 +110,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let once2 = false;
 	  window.addEventListener('scroll', function () {
 
+    // console.log(window.innerHeight);
+
       taeget_position1 = document.querySelector('#sinka').getBoundingClientRect().bottom;
       taeget_position2 = document.querySelector('#sojo').getBoundingClientRect().bottom;
       taeget_position = document.querySelector('#myChart').getBoundingClientRect().bottom;
       // 画面トップからの距離から画面の高さより小さければ実行する
+
+        console.log(window.innerHeight);
 
         if (taeget_position1 <= window.innerHeight && once1 !== true) {
             once1 = true;
