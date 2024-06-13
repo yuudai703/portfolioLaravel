@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-#test{
-    color: red;
-}
-
 .Headline {
     opacity: 0; /* 初期状態では透明に */
     transform: translateX(64px); /* 右に移動 */
@@ -224,11 +218,12 @@
 
 
   body{
+    height: 100vh!important;
     font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
-    background: -moz-linear-gradient(65deg, #550c86, #8378ff);
+    /* background: -moz-linear-gradient(65deg, #550c86, #8378ff);
     background: -webkit-linear-gradient(65deg, #550c86, #FFC778);
-    /* background: linear-gradient(25deg, #5d0101, #e60a0a); */
-    background: linear-gradient(25deg, #ece7e7, #4863ae83);
+    background: linear-gradient(25deg, #5d0101, #e60a0a); */
+    background: linear-gradient(25deg, #95a8c6, #7d338e);
   }
 
 
@@ -282,9 +277,7 @@
   h1{
     font-size: 50px;
     z-index: 4;
-    /* margin-top:-50px; */
-    /* background-color: brown; */
-  }
+    }
 
   p{
     font-size: 21px;
@@ -304,16 +297,11 @@
   .background-container {
     /* background-image: url('back.jpg'); */
     background-size: cover;
+    min-height: 100vh!important;
+    margin:0px;
     background-repeat: no-repeat;
     background-attachment: fixed; /* 背景画像を固定 */
   }
-
-  /* .skills {
-    background-image: url('skills.jpg');
-    opacity: 0;
-    background-size: cover;
-  } */
-
   .smoke-background {
     /* グラデーションを設定して背景に適用 */
     background: linear-gradient(to bottom, rgba(240, 240, 240, 0.5), rgba(255, 255, 255, 1));
