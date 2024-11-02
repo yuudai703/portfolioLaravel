@@ -8,7 +8,7 @@
         age:
         </p>
         <p class='fontphon'>from：長野県 長野市</p>
-        <p class='fontphon'>hobby：筋トレ　サウナ</p>
+        <p class='fontphon'>hobby：目的のない田舎道のドライブ</p>
         <br>
         <p class="aboutMeP" style="width: 80%; white-space:normal;" class="text-gray-600 fontphon">
         <span class="fontphon">
@@ -33,10 +33,7 @@
           <span style="font-size:30px;">相乗効果</span><br>
           <span class="fontphon">
           プロジェクトは緊迫感があって当たり前ですが
-          人間は感情の生き物であり、
-          全員が最高のパフォーマンスを発揮するためには精神的な配慮が必要なときがあると私は思います。
-          最終的な目的のために
-          チームにとって良い影響を与える存在になりたいです。
+          人間は感情の生き物であり、常に張り詰めた状態では、最高のパフォーマンスを発揮できないのではと考えます。時には場を和ます様なジョークが必要であり。技能だけでなくチームにとって良い影響を与える存在になりたいです。
           </span>
         </p>
 

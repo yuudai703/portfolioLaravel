@@ -24,7 +24,7 @@
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0" _msthidden="2">
             <h2 class="font-medium title-font text-black mb-1 text-xl" _msttexthash="204971" _msthidden="1" _msthash="2332">未経験で都内ITベンチャー企業へ転職</h2>
             <p class="leading-relaxed fontphon" _msttexthash="6235814" _msthidden="1" _msthash="2333">
-            IT業界に興味を持ち始め22歳の時思い切って都内の社員数30名、平均年齢20代のベンチャー企業へ転職。同時に先輩エンジニアからプログラミングについて教わっていました。<br>
+            IT業界に興味を持ち始め22歳の時思い切って都内の社員数30名、平均年齢20代のベンチャー企業へ転職。先輩エンジニアからプログラミングについて教わっていました。<br>
             インターホンと連動したセキュリティスマホアプリ
 ：テスター<br>
             経済産業省：データ入力<br>
