@@ -16,6 +16,17 @@
     <meta name="google" content="notranslate">
 
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2RX7HQ6G0Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2RX7HQ6G0Q');
+</script>
+
+
     {{-- <meta name="csrf-token" content="{{ csrf_token() }}"> --}}
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
