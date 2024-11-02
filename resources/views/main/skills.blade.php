@@ -3,29 +3,29 @@
       <!-- グリッドアイテム2 -->
       <div class=" p-4">
         <div class="skill-tab" style='display: flex; margin-bottom: 14px;'>
-          <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
+          <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
             Laravel
           </p>
           <p style="margin-top: 10px;">
-            &nbsp;:2年半( v5  v6  v9 )
+            &nbsp;:3年( v5  v6  v9 )
           </p>
         </div>
 
         <div class="skill-tab" style='display: flex; margin-bottom: 14px;'>
-          <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px;  height:50px;">
+          <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px;  height:50px;">
             MYSQL
           </p>
           <p style="margin-top: 10px;">
-            &nbsp;:2年半
+            &nbsp;:3年
           </p>
         </div>
 
         <div class="skill-tab" style='display: flex; margin-bottom: 14px;'>
-          <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
+          <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
           Vanilla.Js
           </p>
           <p style="margin-top: 10px;">
-            &nbsp;:2年半
+            &nbsp;:3年
           </p>
         </div>
 
@@ -33,7 +33,7 @@
 
 
         <div class="skill-tab" style='display: flex; margin-bottom: 14px;'>
-          <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
+          <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
             Vue.js
           </p>
           <p style="margin-top: 0px;">
@@ -42,7 +42,7 @@
         </div>
 
         <div style='display: flex; margin-bottom: 14px; margin-top: -12px;'>
-          <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px;  height:50px;">
+          <p class="skill-l" style="background-color:rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px;  height:50px;">
             React.js
           </p>
           <p style="margin-top: 10px;">
@@ -63,16 +63,16 @@
 
 
       <div class="scand-g" style='display: flex; margin-bottom: 14px;'>
-        <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px;">
+        <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px;">
         Git
         </p>
         <p style="margin-top: 10px;">
-          &nbsp;:2年半( Hub Lab )
+          &nbsp;:3年( Hub Lab )
         </p>
       </div>
 
       <div class="skill-tab" style='display: flex; margin-bottom: 14px;'>
-          <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
+          <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
           Docker
           </p>
           <p style="margin-top: 0px;">
@@ -82,11 +82,11 @@
 
 
         <div style='display: flex; margin-bottom: 14px; margin-top: -12px;'>
-          <p class="skill-l" style="background-color: gray; font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
+          <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 30px; border-radius: 10px 100px / 120px; text-align: center; width: 170px; height:50px;">
           XAMMP
           </p>
           <p style="margin-top: 10px;">
-            &nbsp;:2年半
+
           </p>
         </div>
 
