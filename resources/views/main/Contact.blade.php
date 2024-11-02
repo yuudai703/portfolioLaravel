@@ -28,7 +28,7 @@
             <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" _msttexthash="79859" _msthidden="1" _msthash="151" onClick="contactSubmit()">送信</button>
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center" _msthidden="2">
-            <a class="text-indigo-500" _msttexthash="327145" _msthidden="1" _msthash="152">example@email.com</a>
+            <a class="text-indigo-500" _msttexthash="327145" _msthidden="1" _msthash="152"></a>
             <p class="leading-normal my-5" _msttexthash="596453" _msthidden="1" _msthash="153">49 Smith St.
               <br>Saint Cloud, MN 56301
             </p>
