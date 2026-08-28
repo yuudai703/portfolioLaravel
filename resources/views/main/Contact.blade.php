@@ -2,7 +2,7 @@
     <div class="container px-5 py-24 mx-auto" _msthidden="8">
       <div class="flex flex-col text-center w-full mb-12" _msthidden="2">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" _msttexthash="132405" _msthidden="1" _msthash="146">Contact Us</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base" _msttexthash="3498859" _msthidden="1" _msthash="147">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base" _msttexthash="3498859" _msthidden="1" _msthash="147"></p>
       </div>
       <div class="lg:w-1/2 md:w-2/3 mx-auto" _msthidden="6">
         <div class="flex flex-wrap -m-2" _msthidden="6">
@@ -29,8 +29,8 @@
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center" _msthidden="2">
             <a class="text-indigo-500" _msttexthash="327145" _msthidden="1" _msthash="152"></a>
-            <p class="leading-normal my-5" _msttexthash="596453" _msthidden="1" _msthash="153">49 Smith St.
-              <br>Saint Cloud, MN 56301
+            <p class="leading-normal my-5" _msttexthash="596453" _msthidden="1" _msthash="153">
+              {{-- <br>Saint Cloud, MN 56301 --}}
             </p>
 
             <!--

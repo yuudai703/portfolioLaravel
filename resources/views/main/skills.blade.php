@@ -32,21 +32,21 @@
 
 
 
-        <div class="skill-tab" style='display: flex; margin-bottom: 14px;align-items: flex-start;'>
+        <div class="skill-tab" style='display: flex; margin-bottom: 14px;'>
           <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 20px; border-radius: 10px 100px / 120px; text-align: center; width: 140px; max-height:50px;">
             Vue.js
           </p>
           <p style="margin-top: 0px; overflow:visible;white-space: nowrap;">
-            &nbsp;:少し(Laravel vue <br>&nbsp;&nbsp; Inertia viteで使用)
+            &nbsp;:個人学習
           </p>
         </div>
 
-        <div style='display: flex; margin-bottom: 14px; margin-top: -12px;'>
+        <div style='display: flex; margin-bottom: 14px; margin-top: 0px;'>
           <p class="skill-l" style="background-color:rgb(191, 191, 191); font-size: 20px; border-radius: 10px 100px / 120px; text-align: center; width: 140px;  max-height:50px;">
             React.js
           </p>
           <p style="margin-top: 10px; overflow:visible;white-space: nowrap;">
-            &nbsp;:少し
+            &nbsp;:個人学習
           </p>
         </div>
 
@@ -67,7 +67,7 @@
         Git
         </p>
         <p style="margin-top: 10px;overflow:visible;white-space: nowrap;">
-          &nbsp;:3年( Hub Lab )
+          &nbsp;:5年( Hub Lab )
         </p>
       </div>
 
@@ -83,7 +83,7 @@
 
         <div style='display: flex; margin-bottom: 14px; margin-top: -12px;'>
           <p class="skill-l" style="background-color: rgb(191, 191, 191); font-size: 20px; border-radius: 10px 100px / 120px; text-align: center; width: 140px; max-height:50px;">
-          XAMMP
+          XAMPP
           </p>
           <p style="margin-top: 10px;">
 
