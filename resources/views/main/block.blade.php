@@ -15,7 +15,7 @@
 <div id="headerMenu">
     @include("main.menu")
 </div>
-<div id="Home" style="margin-bottom: 20%;">
+<div id="Home" style="margin-bottom: 0%;">
     @include("main.home")
 </div>
 <div id="AboutMe">
@@ -29,10 +29,13 @@
     @include("main.ResumeCV")
 </div>
 <div class="skillblock">
-    <div id="Skills">
-        @include("main.skills")
+    <h1 style="text-align: center;" class='skillTitle'>Skills</h1>
+    <div class="skillblockChild">
+        <div id="Skills">
+            @include("main.skills")
+        </div>
+        <div id="myChart" class="myChart"></div>
     </div>
-    <div id="myChart" class="myChart"></div>
 </div>
 
 <div id="BlogArticles">

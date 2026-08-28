@@ -16,7 +16,7 @@
     }
 </style>
 
-<div class='pcTitle' style='height: 800px; justify-content: center;align-items: center;'>
+<div class='pcTitle' style='height: 100vh; justify-content: center;align-items: center;'>
     <h2 class='title propTitle'>
         <span class="animeTitle1">W</span>
         <span class="animeTitle2">e</span>

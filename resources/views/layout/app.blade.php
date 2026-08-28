@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
       let peiSize;
       if(screen.width>499){
-        peiSize=600;
+        peiSize=500;
       }else{
         peiSize=390;
       }
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
               "header": {
                 "title": {
                   "text": "Language",
-                  "fontSize": 24, // タイトルのフォントサイズを24に設定
+                  "fontSize": 20, // タイトルのフォントサイズを24に設定
                   "font": "Meiryo UI"
                 },
               },
@@ -120,15 +120,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let once1 = false;
     let once2 = false;
 	  window.addEventListener('scroll', function () {
-
-    // console.log(window.innerHeight);
-
       taeget_position1 = document.querySelector('#sinka').getBoundingClientRect().bottom;
       taeget_position2 = document.querySelector('#sojo').getBoundingClientRect().bottom;
       taeget_position = document.querySelector('#myChart').getBoundingClientRect().bottom;
       // 画面トップからの距離から画面の高さより小さければ実行する
-
-        console.log(window.innerHeight);
 
         if (taeget_position1 <= window.innerHeight && once1 !== true) {
             once1 = true;
@@ -141,7 +136,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
 
 
-        if (taeget_position <= window.innerHeight && once !== true) {
+        if (taeget_position <= (window.innerHeight+230) && once !== true) {
+          // console.log(taeget_position <= window.innerHeight);
           once = true;
           peiShow();//グラフ表示イベント;
         }

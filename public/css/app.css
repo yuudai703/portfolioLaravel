@@ -252,7 +252,7 @@ html, body {
       margin-bottom: -7%!important;
     }
 
-    .skillblock{
+    .skillblockChild{
       display:flex!important;
       margin-left: 20%!important;
     }
@@ -352,7 +352,7 @@ html, body {
     }
 
   p{
-    font-size: 21px;
+    font-size: 15px;
   }
 
   .title{
