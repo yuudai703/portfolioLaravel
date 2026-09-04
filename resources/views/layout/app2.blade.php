@@ -34,7 +34,7 @@
         #BE8871 → アクティブ状態・アクセント   --}}
 
 
-    <div class="container h-screen"> 
+    <div class="h-screen mx-auto max-w-screen-lg px-4 sm:px-10 lg:px-14"> 
         @yield('content')
     </div>
 

@@ -13,8 +13,12 @@ class WelcomeController extends Controller
             'updated_at'=>carbon::now()->timezone('Asia/Tokyo'),
             'created_at'=>carbon::now()->timezone('Asia/Tokyo')
         ]);
-        return view('main.block',[
-            'data'=>DB::table('blogs')->orderBy('id','desc')->get()
+
+        
+        
+        return view('main',[
+            'data'=>DB::table('blogs')->orderBy('id','desc')->get(),
+            "skills"=>DB::table('skills')->get()
         ]);
     }
 
