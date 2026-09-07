@@ -9,24 +9,27 @@
     <div class="grid grid-cols-12 gap-6">
     
 
-        <div style="position: relative;" class="col-span-4 mt-[20vh] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
+        <div style="position: relative;" class="col-span-4 mt-[20vh] h-[75vh] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
             <img class="index-3" id="myPro" style='z-index:3; top:-120px; left:50px; border-radius:150px; position: absolute; width: 170px; height: 170px;' src="{{asset('pro2.jpg')}}" alt="logo" />
             <div class="index-2 bg-[#BE8871]/60" style='z-index:2; top:-120px; left:80px; border-radius:150px; position: absolute; width: 170px; height: 170px; '>
             </div>
-            <a href="#_" class="block mb-3">
-                <h5 class="text-xl font-bold leading-none tracking-tight text-[#7b4f3d]">Card Title</h5>
-            </a>
-            <p class="mb-4 text-[#7b4f3d]">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <button class="inline-flex items-center justify-between w-auto h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
-                <span>Card Button</span>
-                <svg class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </button>
+            <h5 class="index-4 top-3 text-xl absolute font-bold leading-none tracking-tight text-[#b18573]" style="z-index:10; position: absolute; -webkit-text-stroke: 0.5px black;">Web Engineer</h5>
+            <p class="text-[#7b4f3d]">
+            新井 勇大　Yudai Arai <br>
+            born H9 <br>
+            Birthplace Nagano prefectur<br>
+            LaravelによるWEB業務システム開発を中心に
+            </p>
+
+
+
+            
         </div>
 
         <div class="col-span-1">
         </div>
         <div class="col-span-7">
-            <div class="relative tab-group mt-[20vh] w-full">
+            <div class="relative tab-group mt-[20vh] w-full h-[75vh] max-h-[75vh]">
                 <div class="-top-[70px] flex bg-[#186A70]/30 p-0.5 absolute rounded-lg" role="tablist">
                     <div class="absolute top-1 left-0.5 h-8 bg-[#3B8B8E]/50 rounded-md shadow-sm transition-all duration-300 transform scale-x-0 translate-x-0 tab-indicator z-0"></div>
 
@@ -48,20 +51,20 @@
                 </div>
                 <div class="mt-4 tab-content-container ">
                     <div id="tab1-group" class="tab-content text-stone-500 text-sm block">
-                    {{-- <p>Content for HTML.</p> --}}
-                        <div style="position: relative;" class="mt-[50px] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
-                            <div class="w-full overflow-hidden rounded-lg border border-stone-200">
+                    <!-- {{-- <p>Content for HTML.</p> --}} -->
+                        <div style="position: relative;" class="mt-[50px] w-full h-[75vh] bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
+                            <div class="w-full overflow-scroll rounded-lg border border-[#BE8871] h-full">
                                 <table class="w-full">
-                                    <thead class="border-b border-stone-200 bg-stone-100 text-sm font-medium text-stone-600 dark:bg-surface-dark">
+                                    <thead class="border-b border-[#BE8871]  text-sm font-medium text-stone-600 dark:bg-surface-dark">
                                     <tr>
-                                        <th class="px-2.5 py-2 text-start font-medium">type</th>
-                                        <th class="px-2.5 py-2 text-start font-medium">name</th>
-                                        <th class="px-2.5 py-2 text-start font-medium">experience</th>
+                                        <th class="px-2.5 sticky top-0 py-2 bg-[#BE8871] text-start font-medium">type</th>
+                                        <th class="px-2.5 sticky top-0 py-2 bg-[#BE8871] text-start font-medium">name</th>
+                                        <th class="px-2.5 sticky top-0 py-2 bg-[#BE8871] text-start font-medium">experience</th>
                                     </tr>
                                     </thead>
                                     <tbody class="group text-sm text-stone-800 dark:text-white">
                                     @foreach($skills as $skill)
-                                        <tr class="border-b border-stone-200 last:border-0">
+                                        <tr class="border-b border-[#BE8871] bg-[#BE8871]/10 last:border-0">
                                             <td class="p-3">{{ $skill->type }}</td>
                                             <td class="p-3">{{ $skill->name }}</td>
                                             <td class="p-3">{{ $skill->experience }}</td>
@@ -75,25 +78,32 @@
                     </div>
                     <div id="tab2-group" class="tab-content text-stone-500 text-sm hidden">
                     {{-- <p>Content for React.</p> --}}
-                        <div style="position: relative;" class="mt-[50px] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
+                        <div style="position: relative; " class=" h-[75vh] mt-[50px] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
                             @include('resume')
                         </div>
                     </div>
                     <div id="tab3-group" class="tab-content text-stone-500 text-sm hidden">
                     {{-- <p>Content for Vue.</p> --}}
-                        <div style="position: relative;" class="mt-[50px] max-w-sm bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
-                            <p class="mb-4 text-neutral-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <div style="position: relative; " class=" h-[75vh] mt-[50px] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
+                            <ul class="flex flex-col gap-0.5 min-w-60">
+                                @foreach($data as $d)
+                                    <a href="#list-with-link" class="flex items-center py-1.5 px-2.5 rounded-md align-middle select-none font-sans transition-all duration-300 ease-in aria-disabled:opacity-50 aria-disabled:pointer-events-none bg-transparent text-stone-600 hover:text-stone-800 dark:hover:text-white hover:bg-stone-200 focus:bg-stone-200 focus:text-stone-800 dark:focus:text-white dark:data-[selected=true]:text-white dark:bg-opacity-70">
+                                        {{$d->title}}
+                                    </a>
+                                @endforeach
+                                
+                            </ul>
                         </div>
                     </div>
                     <div id="tab4-group" class="tab-content text-stone-500 text-sm hidden">
                     {{-- <p>Content for Angular.</p> --}}
-                        <div style="position: relative;" class="mt-[50px] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
+                        <div style="position: relative;" class=" h-[75vh] mt-[50px] w-full bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
                             @include('contact')
                         </div>
                     </div>
                     <div id="tab5-group" class="tab-content text-stone-500 text-sm hidden">
                     {{-- <p>Content for Svelte.</p> --}}
-                        <div style="position: relative;" class="mt-[50px] max-w-sm bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
+                        <div style="position: relative;" class=" h-[75vh] mt-[50px] max-w-sm bg-[#BEB7A5] border rounded-lg shadow-sm p-7 border-neutral-200/60">
                             <p class="mb-4 text-neutral-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
                         </div>
                     </div>
