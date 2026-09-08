@@ -12,6 +12,7 @@
 
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="{{ asset('js/anime.min.js')}}"></script>
+        
 
     <meta name="google" content="notranslate">
 
@@ -19,10 +20,23 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2RX7HQ6G0Q"></script>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="{{ asset('animation/animate.css') }}">
+    <script src="{{ asset('animation/jquery.textillate.js') }}"></script>
+    <script src="{{ asset('animation/jquery.lettering.js') }}"></script>
+
+    <style>
+      
+    </style>
+
    
     </head>
     {{-- <body class="background-container" style="overflow-x: hidden !important;"> --}}
-    <body style="background-color:#DAD7CF;">
+    <body style="background-color:#DAD7CF; width:100%;">
+        {{-- <div id="postMesParent" style="position: fixed; top: 20%; left: 50%; transform: translate(-50%, -50%); z-index: 99; text-align: center;">
+        </div> --}}
 
 
 
@@ -33,12 +47,45 @@
         #BEB7A5 → コンテンツカード
         #BE8871 → アクティブ状態・アクセント   --}}
 
-
-    <div class="h-screen mx-auto max-w-screen-lg px-4 sm:px-10 lg:px-14"> 
+    <div class="Gradation_5 h-screen mx-auto max-w-screen-lg px-4 sm:px-10 lg:px-14"> 
         @yield('content')
     </div>
 
+
+    {{-- https://textillate.js.org/ --}}
         <script>
+            var tlt = $('.openAni');
+            tlt.textillate({
+                autoStart: true,
+                initialDelay: 2,
+                minDisplayTime: 2,
+                in: {
+                    // effect: 'fadeInDown',
+                    effect: 'bounceIn',
+                    delayScale: 0,
+                    delay: true
+                    ,
+                    shuffle: true
+            }});
+
+            var tlt2 = $('.openAni2');
+            tlt2.textillate({
+            autoStart: false,
+            initialDelay: 1,
+            minDisplayTime: 1,
+            in: {
+                // effect: 'tada',
+                // effect: 'shake',
+                effect: 'bounceIn',
+                delayScale: 0,
+                delay: true
+                ,
+                shuffle: true
+            }});
+            tlt2.textillate('start');
+            function openAni2(){
+                tlt2.textillate('start');
+            }
         </script>
     </body>
 </html>
