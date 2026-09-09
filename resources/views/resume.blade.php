@@ -3,7 +3,7 @@
     <div class="flex flex-wrap w-full">
       <div class="lg:w-full md:w-1/2 md:pr-10 md:py-6">
         <div class="flex relative pb-12">
-          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+          <div class="h-[200px] max-h-[200px] w-10 absolute inset-0 flex items-center justify-center">
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
           <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#3B8B8E] inline-flex items-center justify-center text-white relative z-10">
@@ -14,16 +14,18 @@
           </div>
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">地元中小企業</h2>
-            <p class="leading-relaxed">
-              地元長野県の中小企業の受託開発会社へ就職
-              エンジニアの人数が少ない職場のため要件の確認から開発、テスト、保守運用まで幅広く経験しました。
-
-
+            <p class="leading-relaxed relative h-24">
+              <span class="openAni3 absolute left-0">地元長野県の中小企業の受託開発会社へ就職</span>
+              <span class="openAni3">
+                エンジニアの人数が少ない職場のため要件の確認から開発、テスト、保守運用まで幅広く経験しました。
+              </span>
+              <br>
+              <br>
             </p>
           </div>
         </div>
         <div class="flex relative pb-12">
-          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+          <div class="h-hull w-10 absolute inset-0 flex items-center justify-center">
             <!-- <div class="h-full w-1 bg-gray-200 pointer-events-none"></div> -->
           </div>
           <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#3B8B8E] inline-flex items-center justify-center text-white relative z-10">
@@ -34,10 +36,7 @@
           </div>
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">都内ITベンチャー企業</h2>
-            <p class="leading-relaxed">
-              テスター、データ入力、テクニカルサポートなどSESとして経験しました。
-
-            </p>
+            <p class="leading-relaxed openAni3">テスター、データ入力、テクニカルサポートなどSESを経験<br>エンドユーザーの業界用語、業務内容を理解し、実際にシステムを利用する側の視点を身につけました。</p>
           </div>
         </div>
       </div>

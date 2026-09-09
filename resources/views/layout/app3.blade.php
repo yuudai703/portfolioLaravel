@@ -68,7 +68,7 @@
    
     </head>
     {{-- <body class="background-container" style="overflow-x: hidden !important;"> --}}
-    <body style="background-color:#DAD7CF; width:100%; marign:0; padding:0;">
+    <body style="background-color:#DAD7CF; width:100%;">
         {{-- <div id="postMesParent" style="position: fixed; top: 20%; left: 50%; transform: translate(-50%, -50%); z-index: 99; text-align: center;">
         </div> --}}
 
@@ -104,7 +104,7 @@
                 effect: 'bounceIn',
                 sync: true,
             }});
-            // tlt2.textillate('start');
+            tlt2.textillate('start');
             function openAni2(){
                 // tlt2.textillate('start');
             }

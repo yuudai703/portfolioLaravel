@@ -8,15 +8,25 @@ use carbon\carbon;
 
 class WelcomeController extends Controller
 {
-    public function index(){
+    public function index(Request $request){
         DB::table('access_logs')->insert([
             'updated_at'=>carbon::now()->timezone('Asia/Tokyo'),
             'created_at'=>carbon::now()->timezone('Asia/Tokyo')
         ]);
 
+        $userAgent = $request->header('User-Agent');
+        
+        if((stripos($userAgent, 'iPhone') || stripos($userAgent, 'Android') )) {
+            return view('mainMobile',[
+                'data'=>DB::table('blogs')->orderBy('id','desc')->get(),
+                "skills"=>DB::table('skills')->get()
+            ]);
+
+        }
+
         
         
-        return view('main',[
+        return view('mainMobile',[
             'data'=>DB::table('blogs')->orderBy('id','desc')->get(),
             "skills"=>DB::table('skills')->get()
         ]);
