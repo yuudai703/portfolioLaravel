@@ -29,7 +29,7 @@
 
     <style>
 
-        .openAni {
+        /* .openAni {
             opacity: 0;
             animation: bounceIn 0.5s both;
         }
@@ -61,7 +61,7 @@
         opacity: 1;
         transform: scale(1);
     }
-        }
+        } */
       
     </style>
 
@@ -81,7 +81,7 @@
         #BEB7A5 → コンテンツカード
         #BE8871 → アクティブ状態・アクセント   --}}
 
-    <div class="Gradation_5 h-screen mx-auto max-w-screen-lg px-4 sm:px-10 lg:px-14"> 
+    <div class="Gradation_5 min-h-screen mx-auto max-w-screen-lg px-4 sm:px-10 lg:px-14"> 
         @yield('content')
     </div>
 

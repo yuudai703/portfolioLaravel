@@ -26,7 +26,7 @@ class WelcomeController extends Controller
 
         
         
-        return view('mainMobile',[
+        return view('main',[
             'data'=>DB::table('blogs')->orderBy('id','desc')->get(),
             "skills"=>DB::table('skills')->get()
         ]);

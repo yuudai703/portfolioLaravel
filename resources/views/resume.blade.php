@@ -15,10 +15,7 @@
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">地元中小企業</h2>
             <p class="leading-relaxed relative h-24">
-              <span class="openAni3 absolute left-0">地元長野県の中小企業の受託開発会社へ就職</span>
-              <span class="openAni3">
-                エンジニアの人数が少ない職場のため要件の確認から開発、テスト、保守運用まで幅広く経験しました。
-              </span>
+              <span class="openAni3">地元長野県の中小企業の受託開発会社へ就職</span><span class="openAni3">エンジニアの人数が少ない職場のため要件の確認から開発、テスト、保守運用まで幅広く経験しました。</span>
               <br>
               <br>
             </p>
