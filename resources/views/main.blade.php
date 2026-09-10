@@ -4,6 +4,8 @@
 
     {{-- <div class="h-[300px]">&nbsp;</div> --}}
 
+    <!-- Minified UMD bundle -->
+
 
 
     <style>
@@ -65,7 +67,7 @@
                 <div class="-top-[50px] flex w-full  bg-[#186A70]/30 p-0.5 absolute rounded-lg" role="tablist">
                     <div class="absolute top-1 left-0.5 h-8 bg-[#3B8B8E]/50 rounded-md shadow-sm transition-all duration-300 transform scale-x-0 translate-x-0 tab-indicator z-0"></div>
 
-                    <a href="#" onclick="openAni2()" class="tab-link text-center w-[25%] text-sm active inline-block py-2 px-4 text-stone-800 transition-all duration-300 relative z-1 mr-1" data-dui-tab-target="tab1-group">
+                    <a href="#" class="tab-link text-center w-[25%] text-sm active inline-block py-2 px-4 text-stone-800 transition-all duration-300 relative z-1 mr-1" data-dui-tab-target="tab1-group">
                     <span class="openAni">SKILLS</span>
                     </a>
                     <a href="#" onclick="openAni3()" class="tab-link text-center w-[25%] text-sm inline-block py-2 px-4 text-stone-800 transition-all duration-300 relative z-1 mr-1" data-dui-tab-target="tab2-group">
@@ -74,7 +76,7 @@
                     <a href="#" onclick="openAni4()" class="tab-link text-center w-[25%] text-sm inline-block py-2 px-4 text-stone-800 transition-all duration-300 relative z-1 mr-1" data-dui-tab-target="tab3-group">
                     <span class="openAni">PROTOTYPES</span>
                     </a>
-                    <a href="#" onclick="openAni2()" class="tab-link text-center w-[25%] text-sm inline-block py-2 px-4 text-stone-800 transition-all duration-300 relative z-1 mr-1" data-dui-tab-target="tab4-group">
+                    <a href="#" class="tab-link text-center w-[25%] text-sm inline-block py-2 px-4 text-stone-800 transition-all duration-300 relative z-1 mr-1" data-dui-tab-target="tab4-group">
                     <span class="openAni">CONTACT</span>
                     </a>
                     {{-- <a href="#" class="tab-link text-sm inline-block py-2 px-4 text-stone-800 transition-all duration-300 relative z-1 mr-1" data-dui-tab-target="tab5-group">

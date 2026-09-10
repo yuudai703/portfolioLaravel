@@ -97,17 +97,9 @@
             }});
             tlt.textillate('start');
 
-            var tlt2 = $('.openAni2');
-            tlt2.textillate({
-            autoStart: false,
-            in: {
-                effect: 'bounceIn',
-                sync: true,
-            }});
-            // tlt2.textillate('start');
-            function openAni2(){
-                // tlt2.textillate('start');
-            }
+            setTimeout(function() {
+                delete tlt;
+            }, 1000);
 
             var tlt3 = $('.openAni3');
             tlt3.textillate({
@@ -127,7 +119,6 @@
                 effect: 'bounceIn',
                 sync: true,
             }});
-            tlt4.textillate('start');
             function openAni4(){
                 tlt4.textillate('start');
             }
