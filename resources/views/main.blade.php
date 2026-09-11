@@ -128,7 +128,7 @@
                                 
                             </ul> --}}
                             <ul class="flex flex-col gap-0.5 min-w-60">
-                                <a href="#" target="_blank">
+                                <a href="https://xs196318.xsrv.jp/scheduleDayPailot" target="_blank">
                                     <li class="bg-white/30 flex items-center py-1.5 px-2.5 rounded-md align-middle select-none font-sans transition-all duration-300 ease-in aria-disabled:opacity-50 aria-disabled:pointer-events-none text-stone-600 hover:text-stone-800 dark:hover:text-white hover:bg-stone-200 focus:bg-stone-200 focus:text-stone-800 dark:focus:text-white dark:data-[selected=true]:text-white dark:bg-opacity-70">
                                         <span class="grid place-items-center shrink-0 me-2.5">
                                         <img src="{{ asset('sch.png') }}" alt="profile-picture" class="2inline-block object-cover object-center w-32 h-22 rounded-md" />
@@ -146,7 +146,7 @@
                                         </div>
                                     </li>
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://xs196318.xsrv.jp/mitumoriSetubiKani/index/1184" target="_blank">
                                     <li class="bg-white/30 flex items-center py-1.5 px-2.5 rounded-md align-middle select-none font-sans transition-all duration-300 ease-in aria-disabled:opacity-50 aria-disabled:pointer-events-none  text-stone-600 hover:text-stone-800 dark:hover:text-white hover:bg-stone-200 focus:bg-stone-200 focus:text-stone-800 dark:focus:text-white dark:data-[selected=true]:text-white dark:bg-opacity-70">
                                         <span class="grid place-items-center shrink-0 me-2.5">
                                         <img src="{{ asset('mitu.png') }}" alt="profile-picture" class="inline-block object-cover object-center w-32 h-22 rounded-md" />
