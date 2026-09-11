@@ -12,7 +12,7 @@
 
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="{{ asset('js/anime.min.js')}}"></script>
-        
+        <meta name="robots" content="noindex">
 
     <meta name="google" content="notranslate">
 

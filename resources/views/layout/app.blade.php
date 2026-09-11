@@ -9,6 +9,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
 
+        <meta name="robots" content="noindex">
 
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="{{ asset('js/anime.min.js')}}"></script>
