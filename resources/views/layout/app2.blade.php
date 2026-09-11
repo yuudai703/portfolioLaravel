@@ -30,40 +30,7 @@
 
     <style>
 
-        /* .openAni {
-            opacity: 0;
-            animation: bounceIn 0.5s both;
-        }
-
-        @keyframes bounceIn {
-            0% {
-        opacity: 0;
-        transform: scale(0.3);
-    }
-
-    20% {
-        opacity: 1;
-        transform: scale(1.03);
-    }
-
-    40% {
-        transform: scale(0.97);
-    }
-
-    60% {
-        transform: scale(1.03);
-    }
-
-    80% {
-        transform: scale(0.97);
-    }
-
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-        } */
-      
+    
     </style>
 
    
