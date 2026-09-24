@@ -140,7 +140,7 @@
                                             <span class="openAni4">Laravel / PHP / MySQL / Bootstrap / ajax / jqueryUI</span><br>
                                             <span class="openAni4">【工夫した点】</span><br>
                                             <span class="openAni4">jqueryUIによるドラック操作、セルの複数選択を実装。</span><br>
-                                            <span class="openAni4">右クリックによるコンテキストメニューを表示表示。</span>
+                                            <span class="openAni4">右クリックによるコンテキストメニューを表示。</span>
                                             <span class="openAni4">Email：admin@nagano.co.jp</span><br>
                                             <span class="openAni4">pass：19971215</span>
                                             <br><br>
