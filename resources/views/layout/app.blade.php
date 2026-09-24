@@ -18,14 +18,14 @@
 
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2RX7HQ6G0Q"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2RX7HQ6G0Q"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2RX7HQ6G0Q');
-</script>
+</script> -->
 
 
     {{-- <meta name="csrf-token" content="{{ csrf_token() }}"> --}}
