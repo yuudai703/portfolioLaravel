@@ -141,6 +141,8 @@
                                             <span class="openAni4">【工夫した点】</span><br>
                                             <span class="openAni4">jqueryUIによるドラック操作、セルの複数選択を実装。</span><br>
                                             <span class="openAni4">右クリックによるコンテキストメニューを表示表示。</span>
+                                            <span class="openAni4">address:admin@nagano.co.jp</span>
+                                            <span class="openAni4">pass:19971215</span>
                                             <br><br>
                                         </small>
                                         </div>
@@ -160,6 +162,7 @@
                                             <span class="openAni4">行ごとの数量×単価=金額、テーブル全体の金額合計、歩掛×労務単価など計算をリアルタイムで</span>
                                             <span class="openAni4">段階的に計算するように実装。</span><br>
                                             <span class="openAni4">資材データなどはjstreeによる階層構造のツリーで表示。</span><br>                                                           
+                                            <span class="openAni4">login情報は上記と同じ</span><br>                                                           
                                         </small>
                                         </div>
                                     </li>
